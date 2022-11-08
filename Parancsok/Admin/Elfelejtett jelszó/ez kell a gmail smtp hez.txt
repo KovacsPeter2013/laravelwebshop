@@ -1,0 +1,14 @@
+
+
+Ezt kell megcsinálni, hogy működjön a Laravelből email küldés:
+https://www.youtube.com/watch?v=mte7LroYd74&ab_channel=BroExperts
+
+Ha ez a videó nem elérhető, akkor:
+A google fiók biztonsági részben, telefonszám felvétele, majd kétlépcsős bekapcsolása.
+Utána lesz egy olyan opció, hogy Alkalmazásjelszavak, és abban az other opciót választva meg lehet adni az app nevét is,
+majd egy képen kb kiadja a jelszót a google. Ezt kell beilleszteni az app-.env fájlban jelszónak, a mail paramétereknél.
+
+
+
+És adatbázisban létező emil címmel kell tesztelni a mail kiküldését, különben nem fog működni, illetve hibát ír ki: 'Something Went Wrong'
+
