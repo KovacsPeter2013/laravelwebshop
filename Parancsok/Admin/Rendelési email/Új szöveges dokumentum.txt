@@ -1,7 +1,0 @@
-
-Vigyázat, a  $this->sendOrderConfirmationMail($order); mail küldőt két helyen kell meghívni a checkout-component.php-ba.
-
-Mert a más címre szállítás alatt volt bent egyszer, és csak akkor futott le a mail ha "más címre szállítást kért".
-
-Most már lefut akkor is ha nem ad meg  "más címre szállítást".
-
